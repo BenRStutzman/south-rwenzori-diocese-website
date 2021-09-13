@@ -12,6 +12,7 @@
         <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_nav.html"; ?>
         <h1>Welcome to South Rwenzori Diocese!</p>
     </header>
+    <img class="main-img" src="img/StPaulsCathedral.JPG" alt="St. Paul's Cathedral" />
     <section>
         <h2>Who are we?</h2>
         <p>South Rwenzori Diocese was founded in 1984 as...</p>
