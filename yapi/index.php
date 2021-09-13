@@ -12,10 +12,12 @@
         <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_nav.html"; ?>
         <h1>Welcome to YAPI!</p>
     </header>
-    <section>
-        <h2>Who are we?</h2>
-        <p>YAPI was founded in 1984 as...</p>
-    </section>
+    <main>
+        <section>
+            <h2>Who are we?</h2>
+            <p>YAPI was founded in 1984 as...</p>
+        </section>
+    </main>
     <footer>
     </footer>
 </body>
