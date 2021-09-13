@@ -2,7 +2,7 @@
 <html>
 <head>
     <?php
-        $page_name = "YAPI";
+        $page_name = "Directorates";
         include "{$_SERVER['DOCUMENT_ROOT']}/shared/_title.php";
         include "{$_SERVER['DOCUMENT_ROOT']}/shared/_imports.html";
     ?>
@@ -10,12 +10,10 @@
 <body>
     <header>
         <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_nav.html"; ?>
-        <h1>Young and Powerful Initiative</p>
+        <h1>Directorates</p>
     </header>
     <main>
         <section>
-            <h2>Who are we?</h2>
-            <p>YAPI was founded in 1984 as...</p>
         </section>
     </main>
     <footer>
