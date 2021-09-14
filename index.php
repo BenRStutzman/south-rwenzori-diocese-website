@@ -8,11 +8,9 @@
     ?>
 </head>
 <body>
-    <header>
-        <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_nav.html"; ?>
-        <h1>South Rwenzori Diocese</h>
-    </header>
+    <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.html"; ?>
     <main>
+        <h1>South Rwenzori Diocese</h1>
         <img class="main-img" src="img/StPaulsCathedral.JPG" alt="St. Paul's Cathedral" />
         <section>
             <h2>Who are we?</h2>

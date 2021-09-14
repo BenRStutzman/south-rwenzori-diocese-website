@@ -8,17 +8,13 @@
     ?>
 </head>
 <body>
-    <header>
-        <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_nav.html"; ?>
-        <h1>Young and Powerful Initiative</p>
-    </header>
+    <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.html"; ?>
     <main>
+        <h1>Young and Powerful Initiative</h1>
         <section>
             <h2>Who are we?</h2>
             <p>YAPI was founded in 1984 as...</p>
         </section>
     </main>
-    <footer>
-    </footer>
 </body>
 </html>

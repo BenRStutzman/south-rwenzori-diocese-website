@@ -8,15 +8,11 @@
     ?>
 </head>
 <body>
-    <header>
-        <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_nav.html"; ?>
-        <h1>Directorates</p>
-    </header>
+    <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.html"; ?>
     <main>
+        <h1>Directorates</h1>
         <section>
         </section>
     </main>
-    <footer>
-    </footer>
 </body>
 </html>

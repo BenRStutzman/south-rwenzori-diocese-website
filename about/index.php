@@ -8,11 +8,9 @@
     ?>
 </head>
 <body>
-    <header>
-        <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_nav.html"; ?>
-        <h1>Welcome to South Rwenzori Diocese!</p>
-    </header>
+    <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.html"; ?>
     <main>
+        <h1>Welcome to South Rwenzori Diocese!</h1>
         <section>
             <h2>A History of the Diocese</h2>
             <h3>Origins</h3>
@@ -38,7 +36,5 @@
             </ul>
         </section>
     </main>
-    <footer>
-    </footer>
 </body>
 </html>
