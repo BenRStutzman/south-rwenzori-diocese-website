@@ -4,11 +4,11 @@
     <?php
         $page_name = "About";
         include "{$_SERVER['DOCUMENT_ROOT']}/shared/_title.php";
-        include "{$_SERVER['DOCUMENT_ROOT']}/shared/_imports.html";
+        include "{$_SERVER['DOCUMENT_ROOT']}/shared/_imports.php";
     ?>
 </head>
 <body>
-    <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.html"; ?>
+    <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>
     <main>
         <h1>Welcome to South Rwenzori Diocese!</h1>
         <section>
@@ -36,5 +36,6 @@
             </ul>
         </section>
     </main>
+    <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_footer.php"; ?>
 </body>
 </html>

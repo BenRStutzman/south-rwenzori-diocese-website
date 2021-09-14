@@ -4,15 +4,16 @@
     <?php
         $page_name = "Bishop";
         include "{$_SERVER['DOCUMENT_ROOT']}/shared/_title.php";
-        include "{$_SERVER['DOCUMENT_ROOT']}/shared/_imports.html";
+        include "{$_SERVER['DOCUMENT_ROOT']}/shared/_imports.php";
     ?>
 </head>
 <body>
-    <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.html"; ?>
+    <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>
     <main>
         <h1>Meet our Bishop</h1>
         <section>
         </section>
     </main>
+    <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_footer.php"; ?>
 </body>
 </html>
