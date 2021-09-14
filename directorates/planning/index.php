@@ -2,7 +2,7 @@
 <html>
 <head>
     <?php
-        $page_name = "Planning & Rehabilitation";
+        $page_name = "Planning, Development, & Rehabilitation";
         include "{$_SERVER['DOCUMENT_ROOT']}/shared/_title.php";
         include "{$_SERVER['DOCUMENT_ROOT']}/shared/_imports.php";
     ?>
@@ -10,7 +10,7 @@
 <body>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>
     <main>
-        <h1>Directorate of Planning & Rehabilitation</h1>
+        <h1>Directorate of Planning, Development, and Rehabilitation</h1>
         <section>
         </section>
     </main>

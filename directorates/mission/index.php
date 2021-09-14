@@ -10,7 +10,7 @@
 <body>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>
     <main>
-        <h1>Directorate of Mission & Evangelism</h1>
+        <h1>Directorate of Mission and Evangelism</h1>
         <section>
             <p>Contact person: Rev. William Musisi, Director of Mission and Evangelism, pschurchofuganda@gmail.com</p>
             <p>The Directorate of Mission and Outreach exists to equip the local church for effective mission and evangelism.</p>
