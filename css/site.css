@@ -21,6 +21,16 @@ body {
     padding-bottom: 28px;
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#c647e6;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 footer {
     padding: 5px;
     width: 100%;
@@ -42,10 +52,6 @@ header a {
     color: black;
 }
 
-nav a {
-    padding: 10px;
-}
-
 .main-img {
     width: 100%;
 }
@@ -64,6 +70,8 @@ nav {
 }
 
 nav a {
+    display: block;
+    padding: 10px;
     font-weight: bold;
-    font-size: 1.25em;
+    font-size: 1.25rem;
 }
