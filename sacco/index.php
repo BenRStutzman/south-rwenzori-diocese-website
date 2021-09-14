@@ -2,7 +2,7 @@
 <html>
 <head>
     <?php
-        $page_name = "About";
+        $page_name = "SACCO";
         include "{$_SERVER['DOCUMENT_ROOT']}/shared/_title.php";
         include "{$_SERVER['DOCUMENT_ROOT']}/shared/_imports.php";
     ?>
@@ -10,7 +10,7 @@
 <body>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>
     <main>
-        <h1>Welcome to South Rwenzori Diocese!</h1>
+        <h1>Clergy and Lay Readers SACCO</h1>
         <section>
         </section>
     </main>

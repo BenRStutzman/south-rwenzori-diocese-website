@@ -2,7 +2,7 @@
 <html>
 <head>
     <?php
-        $page_name = "Directorate of Health";
+        $page_name = "Health";
         include "{$_SERVER['DOCUMENT_ROOT']}/shared/_title.php";
         include "{$_SERVER['DOCUMENT_ROOT']}/shared/_imports.php";
     ?>

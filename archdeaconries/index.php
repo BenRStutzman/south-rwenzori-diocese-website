@@ -26,7 +26,7 @@
                     <h3>Rwesande Archdeaconry</h3>
                     Contact person: Ven. Wilson Kighoma. Tel: 0771691915
                 <li>
-                    Kisinga Archdeaconry
+                    <h3>Kisinga Archdeaconry</h3>
                     Contact person: Ven. Kithaghende.
                 </li>
                 <li>
