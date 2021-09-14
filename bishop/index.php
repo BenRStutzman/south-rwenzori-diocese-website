@@ -28,11 +28,10 @@
                 <li>The Orphan and Vulnerable Children (OVC) project which supports  342 children with school fees and scholastic materials.</li>
                 <li>Clergy and Lay Reader’s SACCO which provide loans and retirement</li>
                 <li>A discipleship movement is rolling out targeting every church member to be a disciple who makes more disciples.</li>
-                <li>MBB’s</li>
-
-Prayer point
-
-· The Enthronement of Rt Rev Dr Kaziimba Mugalu as the 9th Archbishop on 1st March 2020, his Ministry and the retirement of The Most Rev Stanley Ntagali.
+                <li>Muslim Background Believers (MBB’s)</li>
+            </ul>
+            <p>Prayer point<p>
+            <p>The Enthronement of Rt Rev Dr Kaziimba Mugalu as the 9th Archbishop on 1st March 2020, his Ministry and the retirement of The Most Rev Stanley Ntagali.</p>
         </section>
     </main>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_footer.php"; ?>
