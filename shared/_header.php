@@ -3,32 +3,31 @@
         <a href="/">South Rwenzori Diocese</a>
     </h1>
     <nav>
-        <p class="menu-indicator">Menu</p>
+        <div class="menu-indicator">
+            <label for="menu-dropdown">Menu &#9660;</label>
+        </div>
+        <input type="checkbox" id="menu-dropdown" class="dropdown-button">
         <div class="nav-links">
             <div class="dropdown">
-                <div class="nav-option">
+                <div class="link-and-arrow">
                     <a href="/about">About</a>
-                    <input type="checkbox" id="about-dropdown" class="dropdown-button">
                     <label for="about-dropdown">&#9660;</label>
                 </div>
+                <input type="checkbox" id="about-dropdown" class="dropdown-button">
                 <div class="dropdown-content">
-                    <div class="nav-option">
-                        <a href="/about/bishop">Bishop</a>
-                    </div>
-                    <div class="nav-option">
-                        <a href="/about/bishops-office">Bishop's Office</a>
-                    </div>
-                    <div class="nav-option">
-                        <a href="/about/diocesan-secretary">Diocesan Secretary</a>
-                    </div>
-                    <div class="nav-option">
-                        <a href="/about/history">History</a>
-                    </div>
+                    <a href="/about/bishop">Bishop</a>
+                    <a href="/about/bishops-office">Bishop's Office</a>
+                    <a href="/about/diocesan-secretary">Diocesan Secretary</a>
+                    <a href="/about/history">History</a>
                 </div>
             </div>
             <a href="/archdeaconries">Archdeaconries</a>
             <div class="dropdown">
-                <a href="/directorates">Directorates</a>
+                <div class="link-and-arrow">
+                    <a href="/directorates">Directorates</a>
+                    <label for="directorates-dropdown">&#9660;</label>
+                </div>
+                <input type="checkbox" id="directorates-dropdown" class="dropdown-button">
                 <div class="dropdown-content">
                     <a href="/directorates/education">Education</a>
                     <a href="/directorates/estate">Estate</a>
