@@ -5,3 +5,6 @@
 
 <!-- Css -->
 <link rel="stylesheet" href="/css/site.css">
+
+<!-- So media queries work on mobile devices --->
+<meta name="viewport" content="width=device-width,initial-scale=1">
