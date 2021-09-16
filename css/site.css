@@ -1,13 +1,14 @@
 /* color variables */
 :root {
-    --purple-light: #d07ce6;;
+    --purple-lightest: #eab8f6;;
+    --purple-light: #dc4fff;
     --purple-medium: #c647e6;
-    --purple-dark: #8d3ea1;
+    --purple-dark: #b700ff;
 }
 
 html {
     box-sizing: border-box;
-    font-family: Glory, sans-serif;
+    font-family: Mukta, sans-serif;
 }
 
 * {
@@ -18,7 +19,12 @@ body {
     margin: 0;
     min-height: 100vh;
     position: relative;
-    padding-bottom: 28px;
+    padding-bottom: 30px;
+}
+
+.dropdown-arrow {
+    position: relative;
+    bottom: 1px;
 }
 
 .dropdown-checkbox {
@@ -28,19 +34,26 @@ body {
 .dropdown-content {
     display: none;
     flex-direction: column;
-    background-color: var(--purple-dark);
+    background-image: linear-gradient(var(--purple-dark), var(--purple-medium));
 }
 
 footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
     padding: 5px;
     width: 100%;
     position: absolute;
     bottom: 0;
     z-index: -1;
+    background-image: linear-gradient(white, var(--purple-light));
 }
 
-footer, nav, .nav-links {
-    background-color: var(--purple-medium);
+.footer-text {
+    font-size: 0.75rem;
+    margin: 0;
+    color: white;
 }
 
 header a {
@@ -60,7 +73,7 @@ header a {
 }
 
 .header-title {
-    font-size: 55px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
 }
@@ -85,12 +98,17 @@ main h1 {
     display: flex;
 }
 
+nav, .nav-links {
+    background-image: linear-gradient(var(--purple-medium),var(--purple-dark));
+}
+
 nav a {
     padding: 10px;
 }
 
 nav a,
-.menu-indicator {
+.menu-indicator,
+.dropdown-arrow {
     display: inline-block;
     font-weight: bold;
     font-size: 1.25rem;
@@ -137,9 +155,8 @@ th, td {
         display: none;
     }
 
-    nav a:hover,
-    nav label:hover {
-        background-color: var(--purple-light);
+    nav a:hover {
+        color: var(--purple-lightest);
     }
 }
 
@@ -160,6 +177,12 @@ th, td {
     nav a {
         text-align: center;
     }
+
+    nav a,
+    .menu-indicator,
+    .dropdown-arrow {
+        font-size: 1.1rem;
+    }
     
     .nav-links {
         width: 100%;
@@ -167,6 +190,11 @@ th, td {
         position: absolute;
         flex-direction: column;
         gap: 0;
+        background-image: linear-gradient(var(--purple-medium), var(--purple-dark));
+    }
+
+    .dropdown-checkbox:checked ~ label {
+        background-image: linear-gradient(var(--purple-light), var(--purple-medium));
     }
 
     .dropdown-checkbox:checked ~ label .dropdown-arrow {
@@ -179,7 +207,7 @@ th, td {
         display: flex;
     }
 
-    .dropdown-checkbox:checked ~  .menu-dropdown-label {
-        background-color: var(--purple-dark);
+    .dropdown-content {
+        background-image: linear-gradient(var(--purple-medium), var(--purple-light));
     }
 }
