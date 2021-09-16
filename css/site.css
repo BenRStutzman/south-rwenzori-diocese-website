@@ -48,9 +48,25 @@ header a {
     color: black;
 }
 
-header h1 {
-    margin: 0 10px 10px;
-    padding-top: 10px;
+.header-top-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    background-image: url("/images/hills.JPG");
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+    background-size: cover;
+}
+
+.header-title {
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+.header-logo {
+    height: 100px;
 }
 
 .main-img {
@@ -128,7 +144,19 @@ th, td {
 }
 
 /* mobile-only styles */
-@media (max-width: 600px) {    
+@media (max-width: 600px) {
+    .header-top-bar {
+        justify-content: center;
+    }
+
+    .header-logo {
+        height: 70px;
+    }
+
+    .header-title {
+        font-size: 30px;
+    }  
+
     nav a {
         text-align: center;
     }

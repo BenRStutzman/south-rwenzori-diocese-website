@@ -1,7 +1,8 @@
 <header>
-    <h1>
-        <a href="/">South Rwenzori Diocese</a>
-    </h1>
+    <a href="/" class="header-top-bar">
+        <img class="header-logo" src="/images/logo.png" alt="SRD logo">
+        <span class="header-title">South Rwenzori Diocese</span>
+    </a>
     <nav>
         <input type="checkbox" id="menu-dropdown" class="dropdown-checkbox">
         <label for="menu-dropdown" class="menu-dropdown-label">
