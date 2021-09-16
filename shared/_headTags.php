@@ -1,3 +1,11 @@
+<!-- Assign the $site_name variable before importing this script -->
+<title>
+    <?php
+        $site_name = "South Rwenzori Diocese";
+        echo is_null($page_name) ? $site_name : "$site_name - $page_name";
+    ?>
+</title>
+
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

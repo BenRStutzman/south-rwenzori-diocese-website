@@ -3,8 +3,7 @@
 <head>
     <?php
         $page_name = "Archdeaconries";
-        include "{$_SERVER['DOCUMENT_ROOT']}/shared/_title.php";
-        include "{$_SERVER['DOCUMENT_ROOT']}/shared/_imports.php";
+        include "{$_SERVER['DOCUMENT_ROOT']}/shared/_headTags.php";
     ?>
 </head>
 <body>
