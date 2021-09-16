@@ -4,15 +4,18 @@
     </h1>
     <nav>
         <div class="menu-indicator">
-            <label for="menu-dropdown">Menu &#9660;</label>
+            <label for="menu-dropdown">
+                <span>Menu</span>
+                <i class="dropdown-arrow">&#9660;</i>
+            </label>
         </div>
         <input type="checkbox" id="menu-dropdown" class="dropdown-button">
         <div class="nav-links">
             <div class="dropdown">
-                <div class="link-and-arrow">
+                <label for="about-dropdown">
                     <a href="/about">About</a>
-                    <label for="about-dropdown">&#9660;</label>
-                </div>
+                    <i class="dropdown-arrow">&#9660;</i>
+                </label>
                 <input type="checkbox" id="about-dropdown" class="dropdown-button">
                 <div class="dropdown-content">
                     <a href="/about/bishop">Bishop</a>

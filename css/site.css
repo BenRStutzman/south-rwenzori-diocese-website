@@ -58,36 +58,45 @@ header a {
     color: black;
 }
 
-.menu-indicator {
-    display: none;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu-indicator p {
-    margin: 0;
-}
-
 .link-and-arrow {
     display: flex;
-    align-items: center;
-    gap: 5px;
-    justify-content: space-between;
+    align-items: stretch;
+    justify-content: center;
 }
 
 .link-and-arrow a {
+    padding-right: 0;
+}
+
+nav label {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-indicator {
+    display: none;
+    height: 40px;
     width: 100%;
 }
 
-nav a {
+.menu-indicator label {
+    width: 100%;
+    justify-content: center;
+}
+
+nav a,
+.menu-indicator span {
     display: inline-block;
     font-weight: bold;
     font-size: 1.25rem;
     padding: 10px;
 }
 
-nav a:hover {
+nav a:hover,
+nav label:hover,
+.link-and-arrow:hover {
     background-color: #d07ce6;
 }
 
@@ -142,5 +151,9 @@ table {
     .dropdown-button:checked ~ .nav-links
     {
         display: flex;
+    }
+
+    nav a {
+        text-align: center;
     }
 }
