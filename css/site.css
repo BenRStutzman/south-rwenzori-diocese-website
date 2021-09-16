@@ -18,13 +18,15 @@ html {
 body {
     margin: 0;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     padding-bottom: 30px;
 }
 
 .dropdown-arrow {
     position: relative;
-    bottom: 1px;
 }
 
 .dropdown-checkbox {
@@ -32,13 +34,15 @@ body {
 }
 
 .dropdown-content {
+    z-index: 2;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     display: none;
     flex-direction: column;
     background-image: linear-gradient(var(--purple-dark), var(--purple-medium));
 }
 
 footer {
-    height: 50px;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -47,13 +51,16 @@ footer {
     position: absolute;
     bottom: 0;
     z-index: -1;
-    background-image: linear-gradient(white, var(--purple-light));
 }
 
 .footer-text {
     font-size: 0.75rem;
     margin: 0;
-    color: white;
+    color: var(--purple-dark);
+}
+
+header {
+    width: 100%;
 }
 
 header a {
@@ -61,25 +68,22 @@ header a {
     color: black;
 }
 
-.header-top-bar {
+.logo-and-title {
     display: flex;
     align-items: center;
-    padding: 10px;
     gap: 10px;
-    background-image: url("/images/hills.JPG");
-    background-repeat: no-repeat;
-    background-position-y: 20%;
-    background-size: cover;
+    padding: 0 10px;
 }
 
 .header-title {
-    font-size: 50px;
+    font-size: 1.25rem;
     font-weight: bold;
-    color: white;
+    padding: 10px 0;
+    word-wrap: unset;
 }
 
 .header-logo {
-    height: 100px;
+    height: calc(1.25rem + 20px);
 }
 
 .main-img {
@@ -87,7 +91,9 @@ header a {
 }
 
 main {
-    padding: 10px;
+    padding: 10px 30px;
+    max-width: 1000px;
+    width: 100%;
 }
 
 main h1 {
@@ -95,6 +101,10 @@ main h1 {
 }
 
 .menu-dropdown-label {
+    display: flex;
+}
+
+nav {
     display: flex;
 }
 
@@ -129,7 +139,27 @@ nav label a,
 
 .nav-links {
     display: flex;
-    gap: 10px;
+    z-index: 2;
+    flex-wrap: wrap;
+}
+
+.page-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background-image: url("/images/hills.JPG");
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+    background-size: cover;
+}
+
+.page-heading h1 {
+    color: white;
+    opacity: 70%;
+    font-size: 3rem;
+    text-align: center;
 }
 
 table {
@@ -174,6 +204,10 @@ th, td {
         font-size: 30px;
     }  
 
+    nav {
+        flex-direction: column;
+    }
+
     nav a {
         text-align: center;
     }
@@ -187,7 +221,6 @@ th, td {
     .nav-links {
         width: 100%;
         display: none;
-        position: absolute;
         flex-direction: column;
         gap: 0;
         background-image: linear-gradient(var(--purple-medium), var(--purple-dark));
@@ -199,6 +232,7 @@ th, td {
 
     .dropdown-checkbox:checked ~ label .dropdown-arrow {
         transform: rotate(180deg);
+        bottom: 3px;
     }
 
     .dropdown-checkbox:checked ~ .dropdown-content,

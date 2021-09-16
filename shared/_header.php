@@ -1,14 +1,15 @@
 <header>
-    <a href="/" class="header-top-bar">
-        <img class="header-logo" src="/images/logo.png" alt="SRD logo">
-        <span class="header-title">South Rwenzori Diocese</span>
-    </a>
     <nav>
         <input type="checkbox" id="menu-dropdown" class="dropdown-checkbox">
-        <label for="menu-dropdown" class="menu-dropdown-label">
-            <span class="menu-indicator">Menu</span>
-            <i class="dropdown-arrow">&#9660;</i>
-        </label>
+        <div class="nav-title">
+            <a href="/" class="logo-and-title">
+                <img class="header-logo" src="/images/logo.png" alt="SRD logo">
+                <span class="header-title">South Rwenzori Diocese</span>
+                <label for="menu-dropdown" class="menu-dropdown-label">
+                    <i class="dropdown-arrow">&#8801;</i>
+                </label>
+            </a>
+        </div>
         <div class="nav-links">
             <div class="dropdown">
                 <input type="checkbox" id="about-dropdown" class="dropdown-checkbox">
