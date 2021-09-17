@@ -43,6 +43,15 @@ body {
     background-image: linear-gradient(var(--purple-dark), var(--purple-medium));
 }
 
+.dropdown-content a:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.dropdown label {
+    height: 100%;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -51,7 +60,6 @@ footer {
     width: 100%;
     position: absolute;
     bottom: 0;
-    z-index: -1;
 }
 
 .footer-text {
@@ -73,17 +81,16 @@ header a {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 0 10px;
+    padding: 5px 10px;
 }
 
 .header-title {
     font-weight: bold;
-    padding: 10px 0;
-    word-wrap: unset;
+    font-size: 1.25rem;
 }
 
 .header-logo {
-    height: calc(1rem + 20px);
+    height: 3rem;
 }
 
 .main-img {
@@ -91,7 +98,7 @@ header a {
 }
 
 main {
-    padding: 10px 30px;
+    padding: 20px 30px 10px;
     max-width: 1000px;
     width: 100%;
 }
@@ -102,7 +109,8 @@ main h1 {
 
 .menu-dropdown-label {
     display: flex;
-    padding: 0;
+    gap: 30px;
+    width: 100%;
 }
 
 .menu-symbol {
@@ -112,6 +120,7 @@ main h1 {
 nav {
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 nav, .nav-links {
@@ -123,9 +132,10 @@ nav a {
 }
 
 nav a,
-.menu-indicator {
-    display: inline-block;
-    font-weight: bold;
+.dropdown label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav label {
@@ -144,7 +154,7 @@ nav label a,
 .nav-links {
     display: flex;
     z-index: 2;
-    flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .nav-title {
@@ -194,7 +204,8 @@ th, td {
         display: none;
     }
 
-    nav a:hover {
+    nav a:not(.logo-and-title):hover,
+    .dropdown:hover > label > a {
         color: var(--purple-lightest);
     }
 
@@ -214,20 +225,16 @@ th, td {
         width: 100%;
         justify-content: center;
     }
+
+    nav {
+        gap: 0;
+    }
 }
 
 /* mobile-only styles */
 @media (max-width: 600px) {
-    .header-top-bar {
-        justify-content: center;
-    }
-
-    .header-logo {
-        height: calc(1.5rem + 20px);
-    }
-
-    .header-title {
-        font-size: 1.5rem;
+    .dropdown {
+        width: 100%;
     }  
 
     nav {
@@ -238,12 +245,20 @@ th, td {
         text-align: center;
     }
 
+    .dropdown-arrow {
+        font-size: 1rem;
+    }
+
     .nav-links {
         width: 100%;
         display: none;
         flex-direction: column;
         gap: 0;
         background-image: linear-gradient(var(--purple-medium), var(--purple-dark));
+    }
+
+    .nav-links label {
+        gap: 20px;
     }
 
     .dropdown-checkbox:checked ~ label {
