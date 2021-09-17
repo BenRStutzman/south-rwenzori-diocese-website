@@ -2,13 +2,13 @@
     <nav>
         <input type="checkbox" id="menu-dropdown" class="dropdown-checkbox">
         <div class="nav-title">
-            <a href="/" class="logo-and-title">
-                <img class="header-logo" src="/images/logo.png" alt="SRD logo">
-                <span class="header-title">South Rwenzori Diocese</span>
-                <label for="menu-dropdown" class="menu-dropdown-label">
-                    <i class="dropdown-arrow">&#8801;</i>
-                </label>
-            </a>
+            <label for="menu-dropdown" class="menu-dropdown-label">
+                <a href="/" class="logo-and-title">
+                    <img class="header-logo" src="/images/logo.png" alt="SRD logo">
+                    <span class="header-title">South Rwenzori Diocese</span>
+                </a>
+                <i class="menu-symbol">&#8801;</i>
+            </label>
         </div>
         <div class="nav-links">
             <div class="dropdown">
