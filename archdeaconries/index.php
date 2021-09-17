@@ -14,58 +14,155 @@
     <main>
         <section>
             <h2>South Rwenzori Diocese has 13 archdeaconries:</h2>
-            <ol>
+            <ul>
                 <li>
-                    <h3>Kasese Archdeaconry</h3>
-                    Contact person: Ven. Alfred Mugisa Mujungu Tel: 0774-056585, Email: revalfredmujungu@gmail.com
+                    <p>
+                        <span class="diocese-name">Bwera</span>
+                        <br>
+                        Contact person:
+                        <br>
+                        Ven. Eric Sabiti Bikanja
+                        <br>
+                        +256 782 774 345
+                    </p>
                 </li>
                 <li>
-                    <h3>Maliba Archdeaconry</h3>
-                    Contact person: Ven. Katrikawe. Tel: 0773452827
+                    <p>
+                        <span class="diocese-name">Kabathunda</span>
+                        <br>
+                        Contact person:
+                        <br>
+                        Ven. Patric Mumbere
+                        <br>
+                        +256 772 881 973
+                    </p>
                 </li>
                 <li>
-                    <h3>Rwesande Archdeaconry</h3>
-                    Contact person: Ven. Wilson Kighoma. Tel: 0771691915
-                <li>
-                    <h3>Kisinga Archdeaconry</h3>
-                    Contact person: Ven. Kithaghende.
+                    <p>
+                        <span class="diocese-name">Kasese</span>
+                        <br>
+                        Contact person:
+                        <br>
+                        Ven. Alfred Mugisa Mujungu
+                        <br>
+                        +256 774 056 585
+                        <br>
+                        <a href="mailto:revalfredmujungu@gmail.com">revalfredmujungu@gmail.com</a>
+                    </p>
                 </li>
                 <li>
-                    <h3>Mahango Archdeaconry</h3>
-                    Contact person: Ven. Jozet Baluku. Tel: 0777296132
+                    <p>
+                        <span class="diocese-name">Kinyamaseke</span>
+                        <br>
+                        Contact person:
+                        <br>
+                        Ven. Yusufu Baluku Kahihi
+                        <br>
+                        +256 782 154 743
+                        <br>
+                        <a href="mailto:yusufukahihi@gmail.com">yusufukahihi@gmail.com</a>
+                    </p>
                 </li>
                 <li>
-                    <h3>Nyamwamba Archdeaconry</h3>
-                    Contact person: Ven. Nathanairi Mutsumbiri. Tel: 0771866434
+                    <p>
+                        <span class="diocese-name">Kisinga</span>
+                        <br>
+                        Contact person:
+                        <br>
+                        Ven. Kithaghende
+                    </p>
                 </li>
                 <li>
-                    <h3>Bwera Archdeaconry</h3>
-                    Contact person: Ven. Eric Sabiti Bikanja. Tel: 0782774345
+                    <p>
+                        <span class="diocese-name">Kitholhu</span>
+                        <br>
+                        Contact person:
+                        <br>
+                        Ven. Zephanus Buyingo.
+                        <br>
+                        +256 782 356 919
+                    </p>
                 </li>
                 <li>
-                    <h3>Kinyamaseke Archdeaconry</h3>
-                    Contact person: Ven. Yusufu Baluku Kahihi. Tel: 0782154743, Email:yusufukahihi@gmail.com
+                    <p>
+                        <span class="diocese-name">Kyarumba</span>
+                        <br>
+                        Contact person:
+                        <br>
+                        Ven. Laban T. Mugisa.
+                        <br>
+                        +256 773 521 856
+                        <br>
+                        <a href="revlabenmugisa@gmail.com">revlabenmugisa@gmail.com</a>
+                    </p>
                 </li>
                 <li>
-                    <h3>Kyarumba Archdeaconry</h3>
-                    Contact person: Ven. Laban T. Mugisa. Tel: 0773521856, Email:revlabenmugisa@gmail.com
-                <li>
-                    <h3>St. Paul Deanery Archdeaconry</h3>
-                    Contact person: Ven. Charles T. Mbusa .Tel: 0774640998
+                    <p>
+                        <span class="diocese-name">Lhubiriha</span>
+                        <br>
+                        Contact person:
+                        <br>
+                        Rev. Can. Kainja Barnabas
+                        <br>
+                        +256 772 682 568
+                    </p>
                 </li>
                 <li>
-                    <h3>Kabathunda Archdeaconry</h3>
-                    Contact person: Ven. Patric Mumbere. Tel: 0772881973
+                    <p>
+                        <span class="diocese-name">Mahango</span>
+                        <br>
+                        Contact person:
+                        <br>
+                        Ven. Jozet Baluku
+                        <br>
+                        +256 777 296 132
+                    </p>
                 </li>
                 <li>
-                    <h3>Lhubiriha Archdeaconry</h3>
-                    Contact person: Rev. Can. Kainja Barnabas. Tel: 0772682568
+                    <p>
+                        <span class="diocese-name">Maliba</span>
+                        <br>
+                        Contact person:
+                        <br>
+                        Ven. Katrikawe
+                        <br>
+                        +256 773 452 827
+                    </p>
                 </li>
                 <li>
-                    <h3>Kitholhu Archdeaconry</h3>
-                    Contact person: Ven. Zephanus Buyingo. Tel: 0782356919
+                    <p>
+                        <span class="diocese-name">Nyamwamba</span>
+                        <br>
+                        Contact person:
+                        <br>
+                        Ven. Nathanairi Mutsumbiri.
+                        <br>
+                        +256 771 866 434
+                    </p>
                 </li>
-            </ol>
+                <li>
+                    <p>
+                        <span class="diocese-name">Rwesande</span>
+                        <br>
+                        Contact person:
+                        <br>
+                        Ven. Wilson Kighoma
+                        <br>
+                        +256 771 691 915
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span class="diocese-name">St. Paul Deanery</span>
+                        <br>
+                        Contact person
+                        <br>
+                        Ven. Charles T. Mbusa
+                        <br>
+                        +256 774 640 998
+                    </p>
+                </li>
+            </ul>
         </section>
     </main>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_footer.php"; ?>
