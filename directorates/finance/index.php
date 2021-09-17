@@ -8,8 +8,10 @@
 </head>
 <body>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>
-    <main>
+    <div class="page-heading">
         <h1>Directorate of Finance and Administration</h1>
+    </div>
+    <main>
         <section>
         </section>
     </main>

@@ -5,11 +5,14 @@
         $page_name = "YAPI";
         include "{$_SERVER['DOCUMENT_ROOT']}/shared/_headTags.php";
     ?>
+    <link rel="stylesheet" href="/css/pages/yapi.css">
 </head>
 <body>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>
-    <main>
+    <div class="page-heading">
         <h1>Young and Powerful Initiative</h1>
+    </div>
+    <main>
         <section>
             <p>Contact person: Mbauta Chrispus Tel: +256776341489/+256754 898271</p>
             <p>Email: yapiyoung@gmail.com</p>

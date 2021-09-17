@@ -8,8 +8,10 @@
 </head>
 <body>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>
-    <main>
+    <div class="page-heading">
         <h1>Archdeaconries</h1>
+    </div>
+    <main>
         <section>
             <h2>South Rwenzori Diocese has 13 archdeaconries:</h2>
             <ol>

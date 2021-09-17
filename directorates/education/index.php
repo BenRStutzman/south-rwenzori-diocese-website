@@ -8,8 +8,10 @@
 </head>
 <body>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>
-    <main>
+    <div class="page-heading">
         <h1>Directorate of Education</h1>
+    </div>
+    <main>
         <section>
             <p>Rev. Asa Kiriaghe, Director</p>
             <p>Tel: 0782-518103</p>

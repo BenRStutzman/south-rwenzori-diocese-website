@@ -8,8 +8,10 @@
 </head>
 <body>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>
-    <main>
+    <div class="page-heading">
         <h1>Bishop's Office</h1>
+    </div>
+    <main>
         <section>
             <p>The Bishop’s office is overseen by Bishop of the South Rwenzori Diocese, with day-to-day affairs managed by the Diocesan Secretary and a management team of Head of the Departments and Units and the Archdeacons.</p>
             <p>The Diocesan Secretary is Rev. Mugisa Nason.</p>

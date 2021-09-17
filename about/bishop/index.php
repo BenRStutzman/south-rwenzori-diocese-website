@@ -8,8 +8,10 @@
 </head>
 <body>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>
-    <main>
+    <div class="page-heading">
         <h1>Meet our Bishop: The Rt. Rev. Nason Baluku</h1>
+    </div>
+    <main>
         <section>
             <p>South Rwenzori Diocese P.O.Box 142 Kasese +256 782 309 778 srdiocese@gmail.com</p>
             <p>nasonbaluku2013@gmail.com</p>

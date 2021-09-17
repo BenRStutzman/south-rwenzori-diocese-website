@@ -8,8 +8,10 @@
 </head>
 <body>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>
-    <main>
+    <div class="page-heading">
         <h1>History of the Diocese</h1>
+    </div>
+    <main>
         <section>
             <h2>Origins</h2>
             <p>The creation of South Rwenzori Diocese is also linked to the struggle for the BambaBakonzo for self-administration. The yearning for an independent and separate district from Toro also crept into the church, which, like in local government, the church was headed by people who were not natives to the area. As parishes were created in the mountain areas, it became extremely necessary for the church to have local people to help in the spread of the message of salvation. It is no wonder, therefore, that the first voices for a separate diocese began from Kitholhu parish, where pastoral work became difficult for a Kabarole –based bishop amidst the agitation for separate administration. Below is the chronology of events that led to the creation of South Rwenzori Diocese.</p>

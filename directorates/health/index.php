@@ -8,8 +8,10 @@
 </head>
 <body>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>
-    <main>
+    <div class="page-heading">
         <h1>Directorate of Health</h1>
+    </div>
+    <main>
         <section>
             <p>Contact person: Rev Can. Josephat Bwalhuma, revjbwalhuma@gmail.com</p>
             <p>Tel: 0772-694010</p>

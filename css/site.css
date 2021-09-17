@@ -98,7 +98,7 @@ header a {
 }
 
 main {
-    padding: 20px 30px 10px;
+    padding: 20px 30px;
     max-width: 1000px;
     width: 100%;
 }
@@ -168,10 +168,11 @@ nav label a,
     justify-content: center;
     height: 200px;
     width: 100%;
-    background-image: url("/images/hills.JPG");
     background-repeat: no-repeat;
-    background-position-y: 20%;
     background-size: cover;
+    /* You can overwrite this with a different image in a page-specific stylesheet */
+    background-image: url("/images/hills.JPG");
+    background-position-y: 20%;
 }
 
 .page-heading h1 {
