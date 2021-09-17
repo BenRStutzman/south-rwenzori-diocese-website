@@ -93,7 +93,7 @@
                         <br>
                         +256 773 521 856
                         <br>
-                        <a href="revlabenmugisa@gmail.com">revlabenmugisa@gmail.com</a>
+                        <a href="mailto:revlabenmugisa@gmail.com">revlabenmugisa@gmail.com</a>
                     </p>
                 </li>
                 <li>

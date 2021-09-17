@@ -13,6 +13,7 @@
     </div>
     <main>
         <section>
+            <h2>Sharing the good news</h2>
             <p>Contact person: Rev. William Musisi, Director of Mission and Evangelism, pschurchofuganda@gmail.com</p>
             <p>The Directorate of Mission and Outreach exists to equip the local church for effective mission and evangelism.</p>
             <p>To carry out this comprehensive vision, the Directorate has seven units:</p>

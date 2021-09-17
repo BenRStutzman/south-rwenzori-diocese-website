@@ -13,6 +13,7 @@
     </div>
     <main>
         <section>
+            <h2>Equipping our leaders financially</h2>
         </section>
     </main>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_footer.php"; ?>

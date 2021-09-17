@@ -14,11 +14,9 @@
     </div>
     <main>
         <section>
-            <p>Contact person: Mbauta Chrispus Tel: +256776341489/+256754 898271</p>
-            <p>Email: yapiyoung@gmail.com</p>
-        </section>
-        <section>
-            <h2>Profile:</h2>
+            <h2>
+                Improving health and empowering youth
+            </h2>
             <p>Young and powerful initiative (YAPI) is the development arm of south Rwenzori Diocese in Kasese district. Which was founded on……………………</p>
         </section>
         <section>
@@ -172,6 +170,16 @@
                     <td>OVC</td>
                 </tr>
             </table>
+        </section>
+        <section>
+            <h2>Contact Information</h2>
+            <p>
+                Mbauta Chrispus
+                <br>
+                +256 776 341 489/+256 754 898 271
+                <br>
+                <a href="mailto:yapiyoung@gmail.com">yapiyoung@gmail.com</a>
+            </p>
         </section>
     </main>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_footer.php"; ?>
