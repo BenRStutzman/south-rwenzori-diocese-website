@@ -12,6 +12,7 @@
         <h1>South Rwenzori Diocese</h1>
     </div>
     <main>
+        <h2>Greetings from the Anglican Diocese of South Rwenzori, Church of Uganda!</h2>
         <img class="main-img" src="/images/stPaulsCathedral.JPG" alt="St. Paul's Cathedral" />
         <section>
             <h2>Who are we?</h2>

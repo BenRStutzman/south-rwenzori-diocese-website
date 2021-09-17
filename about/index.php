@@ -9,9 +9,10 @@
 <body>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>
     <div class="page-heading">
-        <h1>Welcome to South Rwenzori Diocese!</h1>
+        <h1>About</h1>
     </div>
     <main>
+        <h2>Welcome to South Rwenzori Diocese!<h2>
         <section>
         </section>
     </main>
