@@ -180,6 +180,7 @@ nav label a,
     opacity: 70%;
     font-size: 3rem;
     text-align: center;
+    line-height: 1.25;
 }
 
 table {
