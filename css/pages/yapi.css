@@ -2,3 +2,11 @@
     background-image: url("/images/stPetersWaterTank.JPG");
     background-position-y: 60%;
 }
+
+td:first-of-type {
+    text-align: center;
+}
+
+.table-partners td {
+    text-align: center;
+}

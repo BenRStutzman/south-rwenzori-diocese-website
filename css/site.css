@@ -68,7 +68,6 @@ footer {
 }
 
 .footer-text {
-    font-size: 0.75rem;
     margin: 0;
     color: var(--purple-dark);
 }
@@ -190,6 +189,7 @@ nav label a,
 
 table {
     border-collapse: collapse;
+    margin: auto;
 }
 
 th, td {

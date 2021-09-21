@@ -23,9 +23,9 @@
             <h2>Contact Information</h2>
             <p>+256 782 309 778</p>
             <p>
-                srdiocese@gmail.com
+                <a href="srdiocese@gmail.com">srdiocese@gmail.com</a>
                 <br>
-                nasonbaluku2013@gmail.com
+                <a href="mailto:nasonbaluku2013@gmail.com">nasonbaluku2013@gmail.com</a>
             </p>
             <p>
                 South Rwenzori Diocese

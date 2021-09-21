@@ -19,7 +19,7 @@
             <p>As Diocesan Secretary, his greatest desire is to see South Rwenzori Diocese fulfill her calling from the Lord to restore positive religious, social, economic and cultural values and morals for the quality of life for the community.</p>
         </section>
             <h2>Contact Information</h2>
-            <p>mugisanason@gmail.com</p>
+            <p><a href="mailto:mugisanason@gmail.com">mugisanason@gmail.com</a></p>
         </section>
     </main>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_footer.php"; ?>

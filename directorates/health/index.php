@@ -31,7 +31,7 @@
             <p>The Health Department works collaboratively with the Uganda Protestant Medical Bureau (UPMB).</p>
         <section>
             <h2>Contact Information:</h2>
-            <p>Rev Can. Josephat Bwalhuma, Diocesan Health and Social service Coordinator
+            <p>Rev. Can. Josephat Bwalhuma, Diocesan Health and Social service Coordinator
             <br>
             +256 772 694 010
             <br>

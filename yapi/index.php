@@ -50,7 +50,7 @@
             </ul>
         </section>
         <section>
-            <h2>Activities and / Core programs</h2>
+            <h2>Activities and core programs</h2>
             <p>YAPI will endeavor to execute the following thematic programs as presented in the table below.</p>
             <table>
                 <tr>
@@ -128,14 +128,14 @@
         <section>
             <h2>Partnerships</h2>
             <p>The following are partners we have worked with:</p>
-            <table>
+            <table class="table-partners">
                 <tr>
                     <th>Donor organization</th>
                     <th>Purpose of assistance</th>
                 </tr>
                 <tr>
                     <td>Save the Children</td>
-                    <td>MNCH,YES,HEMPEL,YIA</td>
+                    <td>MNCH, YES, HEMPEL, YIA</td>
                 </tr>
                 <tr>
                     <td>Mennonite Central Committee</td>
