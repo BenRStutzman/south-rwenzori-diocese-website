@@ -451,3 +451,21 @@ th, td {
         background-image: linear-gradient(var(--purple-medium), var(--purple-light));
     }
 }
+
+/* for screens 500px or smaller */
+@media (max-width: 500px) {
+    .page-heading h1 {
+        font-size: 3rem;
+    }
+}
+
+/* for screens 400px or smaller */
+@media (max-width: 400px) {
+    .header-title {
+        font-size: 1.25rem;
+    }
+
+    .page-heading h1 {
+        font-size: 2rem;
+    }
+}
