@@ -204,6 +204,7 @@ th, td {
     border-radius: 6px;
 }
 
+/* timeline vertical line */
 .timeline::after {
     content: '';
     position: absolute;
@@ -211,34 +212,32 @@ th, td {
     background-color: white;;
     top: 0;
     bottom: 0;
-    left: 50%;
     margin-left: -3px;
 }
 
 .timeline-item {
-    padding: 10px;
     position: relative;
-    width: 50%;
 }
 
+/* circle on timeline */
 .timeline-item::after {
     content: '';
     position: absolute;
-    width: 21px;
-    height: 21px;
-    right: -17px;
+    width: 20px;
+    height: 20px;
     background-color: var(--purple-dark);
     border: 6px solid white;
-    top: 15px;
+    top: 25px;
     border-radius: 50%;
     z-index: 1;
 }
 
+/* arrow pointing to timeline */
 .timeline-item::before{
     content:' ';
     height: 0;
     position: absolute;
-    top: 22px;
+    top: 32px;
     width: 0;
     z-index: 1;
     border: medium solid white;
@@ -260,7 +259,7 @@ th, td {
     margin: 0;
 }
 
-/* desktop-only styles */
+/* for screens 601px or larger */
 @media (min-width: 601px) {
     .dropdown-content {
         position: absolute;
@@ -285,34 +284,55 @@ th, td {
     }
 }
 
+/* for screens 801px or larger */
 @media (min-width: 801px) {
+    /* timeline vertical line */
+    .timeline::after {
+        left: 50%;
+    }
+
+    .timeline-item {
+        padding: 20px;
+        width: 50%;
+    }
+
+    /* timeline item on left */
     .timeline-item:nth-child(2n+1) {
         padding-right: 30px;
     }
     
+    /* timeline item on right */
     .timeline-item:nth-child(2n) {
         left: 50%;
         padding-left: 30px;
     }
 
+    /* arrow for item on left */
     .timeline-item:nth-child(2n+1)::before {
         right: 20px;
         border-width: 10px 0 10px 10px;
         border-color: transparent transparent transparent white;
     }
     
+    /* arrow for item on right */
     .timeline-item:nth-child(2n)::before {
         left: 20px;
         border-width: 10px 10px 10px 0;
         border-color: transparent white transparent transparent;
     }
     
+    /* circle for item on left */
+    .timeline-item:nth-child(2n+1)::after {
+        right: -16px;
+    }
+
+    /* circle for item on right */
     .timeline-item:nth-child(2n)::after {
         left: -16px;
     }
 }
 
-/* styles for smaller screens */
+/* for screens 800px or smaller */
 @media (max-width: 800px) {
     .nav-title {
         width: 100%;
@@ -328,32 +348,30 @@ th, td {
         gap: 0;
     }
 
+    /* timeline vertical line */
     .timeline::after {
-        left: 31px;
+        left: 30px;
     }
 
     .timeline-item {
         width: 100%;
-        padding-left: 60px;
-        padding-right: 10px
+        padding: 20px 20px 20px 60px;
     }
 
+    /* arrow for timeline item */
     .timeline-item::before {
         left: 50px;
         border-width: 10px 10px 10px 0;
         border-color: transparent white transparent transparent;
     }
 
-    .timeline-item:nth-child(2n) {
-        left: 0%;
-    }
-
+    /* circle for timeline item */
     .timeline-item::after {
-        left: 15px;
+        left: 14px;
     }
 }
 
-/* mobile-only styles */
+/* for screens 600px or smaller */
 @media (max-width: 600px) {
     .dropdown {
         width: 100%;
