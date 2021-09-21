@@ -234,15 +234,6 @@ th, td {
     z-index: 1;
 }
 
-.timeline-item:nth-child(2n+1) {
-    padding-right: 30px;
-}
-
-.timeline-item:nth-child(2n) {
-    left: 50%;
-    padding-left: 30px;
-}
-
 .timeline-item::before{
     content:' ';
     height: 0;
@@ -253,30 +244,19 @@ th, td {
     border: medium solid white;
 }
 
-.timeline-item:nth-child(2n+1)::before {
-    right: 20px;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
-}
-
-.timeline-item:nth-child(2n)::before {
-    left: 20px;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-}
-
-.timeline-item:nth-child(2n)::after {
-    left: -16px;
-}
-
 .timeline-item-content {
-    padding: 20px 30px;
+    padding: 5px 15px 15px;
     background-color: white;
     position: relative;
     border-radius: 6px;
 }
 
 .timeline-item-content h3 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.timeline-item-content p {
     margin: 0;
 }
 
@@ -305,6 +285,34 @@ th, td {
     }
 }
 
+@media (min-width: 801px) {
+    .timeline-item:nth-child(2n+1) {
+        padding-right: 30px;
+    }
+    
+    .timeline-item:nth-child(2n) {
+        left: 50%;
+        padding-left: 30px;
+    }
+
+    .timeline-item:nth-child(2n+1)::before {
+        right: 20px;
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent white;
+    }
+    
+    .timeline-item:nth-child(2n)::before {
+        left: 20px;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    
+    .timeline-item:nth-child(2n)::after {
+        left: -16px;
+    }
+}
+
+/* styles for smaller screens */
 @media (max-width: 800px) {
     .nav-title {
         width: 100%;
@@ -318,6 +326,30 @@ th, td {
 
     nav {
         gap: 0;
+    }
+
+    .timeline::after {
+        left: 31px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 10px
+    }
+
+    .timeline-item::before {
+        left: 50px;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .timeline-item:nth-child(2n) {
+        left: 0%;
+    }
+
+    .timeline-item::after {
+        left: 15px;
     }
 }
 
