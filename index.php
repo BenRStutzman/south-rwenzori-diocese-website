@@ -9,7 +9,7 @@
 <body>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>
     <div class="page-heading">
-        <h1>South Rwenzori Diocese</h1>
+        <h1>Jesus Christ is the Anchor</h1>
     </div>
     <main>
         <h2>Greetings from the Anglican Diocese of South Rwenzori, Church of Uganda!</h2>

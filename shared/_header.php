@@ -37,7 +37,7 @@
                     <a href="/directorates/finance">Finance & Administration</a>
                     <a href="/directorates/health">Health</a>
                     <a href="/directorates/mission">Mission & Evangelism</a>
-                    <a href="/directorates/planning">Planning, Development, & Rehabilitation</a>
+                    <a href="/directorates/planning">Planning, Development, & Rehabilitation  </a>
                 </div>
             </div>
             <a href="/sacco">SACCO</a>

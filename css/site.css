@@ -4,6 +4,7 @@
     --purple-light: #dc4fff;
     --purple-medium: #c647e6;
     --purple-dark: #b700ff;
+    --purple-darkest: purple;
 }
 
 html {
@@ -89,8 +90,8 @@ header a {
 }
 
 .header-title {
-    font-weight: bold;
-    font-size: 1.25rem;
+    color: var(--purple-darkest);
+    font-size: 1.5rem;
 }
 
 .header-logo {
@@ -122,12 +123,15 @@ main h1 {
 }
 
 nav {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: space-between;
+    background-image:linear-gradient(to right, rgba(255, 255, 255, 50%), transparent);
 }
 
-nav, .nav-links {
+.nav-links {
     background-image: linear-gradient(var(--purple-medium),var(--purple-dark));
 }
 
@@ -139,7 +143,6 @@ nav a,
 .dropdown label {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 nav label {
@@ -170,7 +173,8 @@ nav label a,
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
+    min-height: 200px;
+    padding: 10px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -185,6 +189,7 @@ nav label a,
     font-size: 4rem;
     text-align: center;
     line-height: 1;
+    margin: 0;
 }
 
 table {
@@ -290,6 +295,19 @@ th, td {
 
 /* for screens 801px or larger */
 @media (min-width: 801px) {
+    nav {
+        position: absolute;
+    }
+
+    .nav-links {
+        border-bottom-left-radius: 10px;
+    }
+
+    .page-heading {
+        height: 260px;
+        padding-top: 40px;
+    }
+
     /* timeline vertical line */
     .timeline::after {
         left: 50%;
@@ -338,6 +356,10 @@ th, td {
 
 /* for screens 800px or smaller */
 @media (max-width: 800px) {
+    .header-title {
+        color: black;
+    }
+
     .nav-title {
         width: 100%;
         background-image: linear-gradient(var(--purple-light), var(--purple-medium));
@@ -391,6 +413,7 @@ th, td {
 
     nav a {
         text-align: center;
+        justify-content: center;
     }
 
     .dropdown-arrow {
