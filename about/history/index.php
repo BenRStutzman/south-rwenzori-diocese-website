@@ -51,15 +51,17 @@
               conducted by the Bishop, further strengthening the desire for an assistant bishop based in
               Kasese. Meanwhile, members of the Rwenzururu movement warn Bishop Rwakaikara against
               executing his duties in Kasese District, and direct church authorities in Kasese District
-              not to remit any funds to Rwenzori Diocese. The Rwenzururu fighters periodically descend
+              not to remit any funds to Rwenzori Diocese.</p>
+            <p>The Rwenzururu fighters periodically descend
               from the mountains, carrying away the church funds for 'safe custody' pending the creation
-              of a separate diocese in Kasese. The fighers also stop Kasese church officials and synod
+              of a separate diocese in Kasese. The fighters also stop Kasese church officials and synod
               representatives from attending the synod and other meetings in Rwenzori Diocese on the
-              grounds that Rwenzururu was fighting for the church in Kasese District. The fighters kidnap
-              and detain Kasese priests, catechists and missioners, including Rev. Yohana Masereka and
+              grounds that Rwenzururu was fighting for the church in Kasese District.
+              The fighters kidnap and detain Kasese priests, catechists and missioners, including Rev. Yohana Masereka and
               Rev. Hosea Kiiza. The consequences are reduced church activities and services in Kasese
               archdeaconry and the displacement of the Kitojo vicar from his parish to Karambi, which
-              enhance the vision to have a separate diocese. Muhyana successfully tables a motion calling
+              enhance the vision to have a separate diocese.</p>
+            <p>Muhyana successfully tables a motion calling
               for an assistant bishop in charge of Kasese, and a resolution is sent to the Kasese
               archdeaconry council. The archdeaconry council debates, adopts and forwards the petition to
               the diocesan synod of Rwenzori on 11th December 1979 for consideration. David Sebuhinja, one

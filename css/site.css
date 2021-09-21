@@ -259,6 +259,10 @@ th, td {
     margin: 0;
 }
 
+.timeline-item-content p:not(:first-of-type) {
+    margin-top: 20px;
+}
+
 /* for screens 601px or larger */
 @media (min-width: 601px) {
     .dropdown-content {
@@ -350,12 +354,16 @@ th, td {
 
     /* timeline vertical line */
     .timeline::after {
-        left: 30px;
+        left: 25px;
     }
 
     .timeline-item {
         width: 100%;
-        padding: 20px 20px 20px 60px;
+        padding: 10px 10px 0px 60px;
+    }
+
+    .timeline-item:last-child {
+        padding-bottom: 10px;
     }
 
     /* arrow for timeline item */
@@ -367,7 +375,7 @@ th, td {
 
     /* circle for timeline item */
     .timeline-item::after {
-        left: 14px;
+        left: 9px;
     }
 }
 
