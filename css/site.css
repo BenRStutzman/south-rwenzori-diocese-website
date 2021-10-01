@@ -98,7 +98,13 @@ header a {
     height: 3rem;
 }
 
-.main-img {
+.image-to-right {
+    width: 40%;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.image-full {
     width: 100%;
 }
 
@@ -418,6 +424,10 @@ th, td {
 
     .dropdown-arrow {
         font-size: 1rem;
+    }
+
+    .image-to-right {
+        width: 100%;
     }
 
     .nav-links {

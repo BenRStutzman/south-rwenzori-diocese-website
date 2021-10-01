@@ -5,6 +5,7 @@
         $page_name = "Mission & Evangelism";
         include "{$_SERVER['DOCUMENT_ROOT']}/shared/_headTags.php";
     ?>
+    <link rel="stylesheet" href="/css/pages/mission.css">
 </head>
 <body>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>
@@ -14,6 +15,7 @@
     <main>
         <section>
             <h2>Sharing the good news</h2>
+            <img class="image-to-right" src="/images/MissionDirector.png" alt="Mission Director William Musisi">
             <p>Contact person: Rev. William Musisi, Director of Mission and Evangelism, pschurchofuganda@gmail.com</p>
             <p>The Directorate of Mission and Outreach exists to equip the local church for effective mission and evangelism.</p>
             <p>To carry out this comprehensive vision, the Directorate has seven units:</p>

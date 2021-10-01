@@ -14,6 +14,7 @@
     <main>
         <section>
             <h2>Connecting the church with schools and children</h2>
+            <img class="image-to-right" src="/images/Kisinga Divinity College.jpg" alt="Kisinga Divinity College">
             <p>The Department of Education oversees 134 church-founded primary Schools, 11 secondary Schools (Bwera, Mutanywana, Kisinga Vocation, Kibanzanga, All Saint’s Kitholhu, St. Johns’ Nyakabingo, Busaara High Hill, Bwera Comprehensive, Kyambara Secondary, Nyakabale and Kahokya), of which 4 are government aided.</p>
             <p>Bwera Secondary School is the best in academic performance in the district.</p>
             <p>The directorate also manages two church-founded tertiary institutions: Kagando school of Nursing and Midwifery with a total population of 614 (215 M, 399 F) which offers certificates and Diploma courses, and Kisinga Divinity College, which has evolved into the Rwenzori Anglican University Project.</p>

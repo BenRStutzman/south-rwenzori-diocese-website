@@ -19,6 +19,7 @@
                 </label>
                 <div class="dropdown-content">
                     <a href="/about/bishop">Bishop</a>
+                    <a href="/about/St-Pauls-cathedral/">St. Paul's Cathedral</a>
                     <a href="/about/bishops-office">Bishop's Office</a>
                     <a href="/about/diocesan-secretary">Diocesan Secretary</a>
                     <a href="/about/history">History</a>
@@ -42,6 +43,7 @@
             </div>
             <a href="/sacco">SACCO</a>
             <a href="/yapi">YAPI</a>
+            <a href="/kisinga-divinity-college">Kisinga Divinity College</a>
         </div>
     </nav>
 </header>
