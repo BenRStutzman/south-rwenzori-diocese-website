@@ -104,6 +104,11 @@ header a {
     margin-bottom: 10px;
 }
 
+.image-to-left {
+    width: 40%;
+    margin-bottom: 10px;
+}
+
 .image-full {
     width: 100%;
 }
@@ -139,6 +144,7 @@ nav {
 
 .nav-links {
     background-image: linear-gradient(var(--purple-medium),var(--purple-dark));
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -301,19 +307,6 @@ th, td {
 
 /* for screens 801px or larger */
 @media (min-width: 801px) {
-    nav {
-        position: absolute;
-    }
-
-    .nav-links {
-        border-bottom-left-radius: 10px;
-    }
-
-    .page-heading {
-        height: 260px;
-        padding-top: 40px;
-    }
-
     /* timeline vertical line */
     .timeline::after {
         left: 50%;
@@ -360,8 +353,24 @@ th, td {
     }
 }
 
-/* for screens 800px or smaller */
-@media (max-width: 800px) {
+/* for screens 1001px or larger */
+@media (min-width: 1001px) {
+    nav {
+        position: absolute;
+    }
+
+    .nav-links {
+        border-bottom-left-radius: 10px;
+    }
+
+    .page-heading {
+        height: 260px;
+        padding-top: 40px;
+    }
+}
+
+/* for screens 1000px or smaller */
+@media (max-width: 1000px) {
     .header-title {
         color: black;
     }
@@ -379,7 +388,10 @@ th, td {
     nav {
         gap: 0;
     }
+}
 
+/* for screens 800px or smaller */
+@media (max-width: 800px) {
     /* timeline vertical line */
     .timeline::after {
         left: 25px;
@@ -426,7 +438,8 @@ th, td {
         font-size: 1rem;
     }
 
-    .image-to-right {
+    .image-to-right,
+    .image-to-left {
         width: 100%;
     }
 

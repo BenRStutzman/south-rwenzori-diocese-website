@@ -19,7 +19,7 @@
                 </label>
                 <div class="dropdown-content">
                     <a href="/about/bishop">Bishop</a>
-                    <a href="/about/St-Pauls-cathedral/">St. Paul's Cathedral</a>
+                    <a href="/about/st-pauls-cathedral/">St. Paul's Cathedral</a>
                     <a href="/about/bishops-office">Bishop's Office</a>
                     <a href="/about/diocesan-secretary">Diocesan Secretary</a>
                     <a href="/about/history">History</a>
@@ -34,7 +34,6 @@
                 </label>
                 <div class="dropdown-content">
                     <a href="/directorates/education">Education</a>
-                    <a href="/directorates/estate">Estate</a>
                     <a href="/directorates/finance">Finance & Administration</a>
                     <a href="/directorates/health">Health</a>
                     <a href="/directorates/mission">Mission & Evangelism</a>

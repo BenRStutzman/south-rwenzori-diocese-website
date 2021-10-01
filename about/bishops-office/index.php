@@ -14,7 +14,8 @@
     <main>
         <section>
             <h2>Welcome to the Bishop's Office</h2>
-            <p>The Bishop’s office is overseen by Bishop of the South Rwenzori Diocese, with day-to-day affairs managed by the Diocesan Secretary and a management team of the heads of the departments and units and the archdeacons.</p>
+            <p>The Bishop’s office is overseen by the Bishop of the South Rwenzori Diocese, with day-to-day affairs managed by the Diocesan Secretary and a management team of the heads of the departments and units and the archdeacons.</p>
+            <img class="image-to-left" src="/images/DiocesanSecretary.png" alt= "Diocesan Secretary">
             <p>The Diocesan Secretary is Rev. Mugisa Nason.</p>
             <p>It is the duty of the Bishop’s Office to ensure the implementation of resolutions adopted by the Diocesan Synod.</p>
             <p>The Bishop’s office has five departments through which the coordination of ministry throughout all the archdeaconries and parishes is handled. The departments are:</p>
@@ -32,7 +33,7 @@
                 <li>A discipleship movement targeting every church member to be a disciple who makes more disciples</li>
                 <li>A ministry supports Muslim-background believers (MBB’s)</li>
             </ul>
-            <p>Prayer point: the enthronement of Rt Rev Dr Kaziimba Mugalu as the ninth Archbishop of Uganda on 1st March 2020, his ministry, and the retirement of the most Rev. Stanley Ntagali.</p>
+            <p>Prayer point: ..................</p>
         </section>
     </main>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_footer.php"; ?>

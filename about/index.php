@@ -17,6 +17,7 @@
             <p>We're glad you're here. South Rwenzori Diocese represents the Anglican Church of Uganda in Kasese District. Visit one of the links below to learn more about:</p>
             <ul>
                 <li>Our <a href="/about/bishop">Bishop</a>, Nason Baluku</li>
+                <li>Our central church, <a href="/about/st-pauls-cathedral">St. Paul's Cathedral</a></li>
                 <li>The <a href="/about/bishops-office">Bishop's Office</a></li>
                 <li>Our <a href="/about/diocesan-secretary">Diocesan Secretary</a>, Nason Mugisa</li>
                 <li>The <a href="/about/history">history</a> of the diocese</li>

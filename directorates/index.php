@@ -13,10 +13,9 @@
     </div>
     <main>
         <section>
-            <h2>South Rwenzori Diocese has six directorates:</h2>
+            <h2>South Rwenzori Diocese has five directorates:</h2>
             <ul>
                 <li><a href="/directorates/education">Education</a></li>
-                <li><a href="/directorates/estate">Estate</a></li>
                 <li><a href="/directorates/finance">Finance and administration</a></li>
                 <li><a href="/directorates/mission">Mission and Evangelism</a></li>
                 <li><a href="/directorates/health">Health</a></li>

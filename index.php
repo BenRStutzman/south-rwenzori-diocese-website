@@ -13,7 +13,7 @@
     </div>
     <main>
         <h2>Greetings from the Anglican Diocese of South Rwenzori, Church of Uganda!</h2>
-        <img class="image-full" src="/images/stPaulsCathedral.JPG" alt="St. Paul's Cathedral" />
+        <img class="image-full" src="/images/St. Paul's Cathedral.jpg" alt="St. Paul's Cathedral" />
         <section>
             <h2>Who are we?</h2>
             <p>South Rwenzori Diocese was founded in 1984 as...</p>
