@@ -6,6 +6,7 @@
         $page_name = "Health";
         include "{$_SERVER['DOCUMENT_ROOT']}/shared/_headTags.php";
     ?>
+    <link rel="stylesheet" href="/css/pages/health.css">
 </head>
 
 <body>
@@ -52,6 +53,7 @@
     </section>
     <section>
       <h2>Contact Information</h2>
+      <img class="image-to-left" src="/images/HealthDirector.png" alt="Health Director Josephat Bwalhuma">
       <p>
         Rev. Can. Josephat Bwalhuma, Diocesan Health and Social service Coordinator
         <br>
