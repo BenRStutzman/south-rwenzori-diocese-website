@@ -27,7 +27,7 @@
                 <li><strong>Children’s Ministry</strong>: reaches children for Christ in order to facilitate spiritual learning and growth for Christian witness among children, equips children’s workers and children so that they will grow to maturity, develops strategies for nurturing and discipleship of children, and sensitizes the church and the community to the role and place of children. Contact person: Jethro Bwenge.</li>
                 <li><strong>Community Health Empowerment (CHE)</strong>: a separate ministry whose focus is holistic transformation of individuals and communities and training of trainers on community health issues. CHE’s roots are found in the progam. Contact person: Rev. Girison Kibethe</li>
                 <li><strong>Boys and Girls Brigade</strong>: trains young people with skills in music and foot drills, fosters good morals and provides guidance; participates in church mission programs.</li>
-                <li><strong>Orphans and Vulnerable Children (OVC)</strong>: provides school fees, scholastic materials, and lunch for some pupils. The project's two partners are St. Peter’s Anglican Cathedral Tallahassee - USA and Romsey Deanery – UK. Contact person: Muthengera Brian, <a href="mailto:brianengera@yahoo.com">brianengera@yahoo.com</a>/<a href="mailto:brianyapisrd@gmail.com">brianyapisrd@gmail.com</a></li>
+                <li><strong>Orphans and Vulnerable Children (OVC)</strong>: provides school fees, scholastic materials, and lunch for some pupils. The project's two partners are St. Peter’s Anglican Cathedral Tallahassee - USA and Romsey Deanery – UK.</li>
             </ul>
         </section>
         <section>

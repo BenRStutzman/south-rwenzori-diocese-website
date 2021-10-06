@@ -5,6 +5,7 @@
         $page_name = "About";
         include "{$_SERVER['DOCUMENT_ROOT']}/shared/_headTags.php";
     ?>
+    <link rel="stylesheet" href="/css/pages/about.css">
 </head>
 <body>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_header.php"; ?>

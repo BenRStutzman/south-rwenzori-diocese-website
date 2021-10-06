@@ -25,24 +25,25 @@
                     <a href="/about/history">History</a>
                 </div>
             </div>
-            <a href="/archdeaconries">Archdeaconries</a>
             <div class="dropdown">
-                <input type="checkbox" id="directorates-dropdown" class="dropdown-checkbox">
-                <label for="directorates-dropdown">
-                    <a href="/directorates">Directorates</a>
-                    <i class="dropdown-arrow">&#9660;</i>
-                </label>
-                <div class="dropdown-content">
-                    <a href="/directorates/education">Education</a>
-                    <a href="/directorates/finance">Finance & Administration</a>
-                    <a href="/directorates/health">Health</a>
-                    <a href="/directorates/mission">Mission & Evangelism</a>
-                    <a href="/directorates/planning">Planning, Development, & Rehabilitation  </a>
-                </div>
+              <input type="checkbox" id="directorates-dropdown" class="dropdown-checkbox">
+              <label for="directorates-dropdown">
+                <a href="/directorates">Directorates</a>
+                <i class="dropdown-arrow">&#9660;</i>
+              </label>
+              <div class="dropdown-content">
+                <a href="/directorates/education">Education</a>
+                <a href="/directorates/finance">Finance & Administration</a>
+                <a href="/directorates/health">Health</a>
+                <a href="/directorates/mission">Mission & Evangelism</a>
+                <a href="/directorates/planning">Planning, Development, & Rehabilitation  </a>
+              </div>
             </div>
+            <a href="/archdeaconries">Archdeaconries</a>
             <a href="/sacco">SACCO</a>
             <a href="/yapi">YAPI</a>
             <a href="/kisinga-divinity-college">Kisinga Divinity College</a>
+            <a href="/news">News</a>
         </div>
     </nav>
 </header>

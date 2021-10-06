@@ -33,7 +33,6 @@
                 <li>A discipleship movement targeting every church member to be a disciple who makes more disciples</li>
                 <li>A ministry supports Muslim-background believers (MBB’s)</li>
             </ul>
-            <p>Prayer point: ..................</p>
         </section>
     </main>
     <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_footer.php"; ?>

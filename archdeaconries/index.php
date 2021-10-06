@@ -58,7 +58,7 @@
       <p>
         Contact person:
         <br>
-        Ven. Kithaghende
+        Ven. Kithaghende Julius
       </p>
       <h3>Kitholhu</h3>
       <img class="image-full" src="/images/Kithulho Archdeaconry head Qtrs.jpg" alt="Kitolhu Archdeaconry Headquarters">
@@ -101,7 +101,7 @@
       <p>
         Contact person:
         <br>
-        Ven. Katrikawe
+        Ven. Katalikawe
         <br>
         +256 773 452 827
       </p>
@@ -123,8 +123,9 @@
         +256 771 691 915
       </p>
       <h3>St. Paul Deanery</h3>
+      <img class="image-full" src="/images/St. Paul's Cathedral.jpg" alt="St. Paul's Cathedral">
       <p>
-        Contact person
+        Contact person:
         <br>
         Ven. Charles T. Mbusa
         <br>

@@ -20,8 +20,8 @@
       <p>St. Paul's Cathedral is overseen by the Dean who is the Bishop of the South Rwenzori Diocese, with day-to-day
         affairs managed by the Sub Dean, Assistant Sub Dean and Vicar.</p>
       <img class="image-to-left" src="/images/SubDean.png" alt=" Sub Dean">
-        <p>The Sub Dean is Rev. Charles Mbusa.</p>
-      <p>Assisted by Assistant Sub Dean Rev. Zziwa Robert and the Vicar </p>
+      <p>The Sub Dean is Rev. Charles Mbusa.</p>
+      <p>He is assisted by Assistant Sub Dean Rev. Zziwa Robert and the Vicar.</p>
     </section>
     <section>
       <h2>Services</h2>
@@ -46,7 +46,6 @@
         <li>Worship in Schools </li>
         <li>Open Air Service (Crusades) </li>
       </ol>
-      <p>Prayer point: .......</p>
     </section>
   </main>
   <?php include "{$_SERVER['DOCUMENT_ROOT']}/shared/_footer.php"; ?>
