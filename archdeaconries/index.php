@@ -54,13 +54,14 @@
         <a href="mailto:yusufukahihi@gmail.com">yusufukahihi@gmail.com</a>
       </p>
       <h3>Kisinga</h3>
-      <img class="image-full" src="/images/Kisinga Archdeaconry Headqtrs.jpg" alt="Kisinga Archdeaconry Headquarters">
+      <img class="image-full" src="/images/Kisinga Archdeaconry Head qtrs.jpg" alt="Kisinga Archdeaconry Headquarters">
       <p>
         Contact person:
         <br>
         Ven. Kithaghende
       </p>
       <h3>Kitholhu</h3>
+      <img class="image-full" src="/images/Kithulho Archdeaconry head Qtrs.jpg" alt="Kitolhu Archdeaconry Headquarters">
       <p>
         Contact person:
         <br>
@@ -69,7 +70,7 @@
         +256 782 356 919
       </p>
       <h3>Kyarumba</h3>
-      <img class="image-full" src="/images/Kyarumba Archdeaconry headqtrs.jpg" alt="Kyarumba Archdeaconry Headquarters">
+      <img class="image-full" src="/images/Kyarumba Archdeaconry head qtrs.jpg" alt="Kyarumba Archdeaconry Headquarters">
       <p>
         Contact person:
         <br>
@@ -88,6 +89,7 @@
         +256 772 682 568
       </p>
       <h3>Mahango</h3>
+      <img class="image-full" src="/images/Mahango Archdeaconry Head qtrs.jpg" alt="Mahango Archdeaconry Headquarters">
       <p>
         Contact person:
         <br>

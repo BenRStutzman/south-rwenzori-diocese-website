@@ -6,7 +6,7 @@
         $page_name = "Health";
         include "{$_SERVER['DOCUMENT_ROOT']}/shared/_headTags.php";
     ?>
-    <link rel="stylesheet" href="/css/pages/health.css">
+  <link rel="stylesheet" href="/css/pages/health.css">
 </head>
 
 <body>
@@ -28,16 +28,17 @@
     </section>
     <section>
       <h2>Hospitals</h2>
+      <h3>Kagando Hospital</h3>
       <img class="image-full" src="/images/Kagando Hospital.jpg" alt="Kagando Hospital">
-      <p>Kagando Hospital. For more information about Kagando Hospital, visit their website: <a
-          href="https://www.kagando.org/" target="_blank">https://www.kagando.org/</a>.</p>
+      <p>For more information about Kagando Hospital, visit their website: <a href="https://www.kagando.org/"
+          target="_blank">https://www.kagando.org/</a>.</p>
     </section>
     <section>
       <h2>Health Center IVs</h2>
+      <h3>St Paul’s Health Centre – Kamaiba</h3>
       <img class="image-full" src="/images/St.Paul's Hospital.jpg" alt="St. Paul's Health Center">
-      <p>St Paul’s Health Centre – Kamaiba</p>
+      <h3>Rwesande</h3>
       <img class="image-full" src="/images/Rwesande HC IV.jpg" alt="Rwesande Health Center">
-      <p>Rwesande</p>
     </section>
     <section>
       <h2>Health Center IIIs</h2>

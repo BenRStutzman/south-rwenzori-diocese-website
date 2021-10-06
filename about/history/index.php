@@ -168,19 +168,22 @@
         <div class="timeline-item">
           <div class="timeline-item-content">
             <h3>1984-2003</h3>
-            <p>Bishop Masereka Kahangwa Zebedde</p>
+            <img class="image-full" src="/images/Bishop Masereka.jpg" alt="Bishop Zebedde Masereka">
+            <p>Bishop Zebedde Masereka Kahangwa</p>
           </div>
         </div>
         <div class="timeline-item">
           <div class="timeline-item-content">
             <h3>2003–2020</h3>
-            <p>Bishop Nzerebende Jackson</p>
+            <img class="image-full" src="/images/Bishop Nzerebande.jpg" alt="Bishop Jackson Nzerebande">
+            <p>Bishop Jackson Nzerebende</p>
           </div>
         </div>
         <div class="timeline-item">
           <div class="timeline-item-content">
             <h3>2020–present</h3>
-            <p>Bishop Baluku Nason. God willing, he will serve 12 years.</p>
+            <img class="image-full" src="/images/Bishop.png" alt="Bishop Nason Baluku">
+            <p>Bishop Nason Baluku. God willing, he will serve 12 years.</p>
           </div>
         </div>
       </div>
