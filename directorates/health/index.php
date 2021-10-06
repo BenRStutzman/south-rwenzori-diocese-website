@@ -53,7 +53,7 @@
     </section>
     <section>
       <h2>Contact Information</h2>
-      <img class="image-to-left" src="/images/HealthDirector.png" alt="Health Director Josephat Bwalhuma">
+      <img class="image-to-left" src="/images/HealthDirector.jpg" alt="Health Director Josephat Bwalhuma">
       <p>
         Rev. Can. Josephat Bwalhuma, Diocesan Health and Social service Coordinator
         <br>

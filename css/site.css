@@ -196,8 +196,8 @@ nav label a,
     background-repeat: no-repeat;
     background-size: cover;
     /* You can overwrite this with a different image in a page-specific stylesheet */
-    background-image: url("/images/hills.JPG");
-    background-position-y: 20%;
+    background-image: url("/images/MtRwenzori.jpg");
+    background-position-y: top;
 }
 
 .page-heading h1 {
